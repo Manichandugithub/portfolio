@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title> Mani Chandu Portfolio</title>
+    
+<link rel="stylesheet" href="style.css"/>
+<script src="https://kit.fontawesome.com/e0d9fef64f.js" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+
+<link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+<link rel="icon" type="image/x-icon" href="favicon.ico">
+
+</head>
+<body>
+    <header class="l-header">
+        <nav class="nav bg-grid">
+            <div>
+                <a href="#" class="nav__logo">ManiChandu.K</a>
+            </div>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                    
+                  </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="bx bx-menu"></i>
+            </div>
+        </nav>
+    </header>
+    <main class="l-main">
+        <!-- Home -->
+
+        <section class="home bg-grid" id="home">
+            <div class="home__data">
+                <h2 class="home__title">Hi, <br>I am <span class="home__title-color">Manichandu</span><br>Software Developer.</h2>
+                <a href="ManiChandu Resume.pdf"  target="_blank" class="button">Resume</a>
+            </div>
+            <div class="home__social">
+                <a href="https://www.linkedin.com/in/mani-chandu-korrapati-2b24b4207/" target="_blank" class="home__social-icon"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/_____mani_chandu_chowdary_____/" target="_blank" class="home__social-icon"><i  class="fa-brands fa-instagram"></i></a>
+                <a href="https://github.com/Manichandugithub?tab=repositories" target="_blank" class="home__social-icon"><i class="fa-brands fa-github"></i></a>
+
+            </div>
+        </section>
+
+        <!-- About -->
+
+        <section class="about section" id="about">
+            <h2 class="section-title">About</h2>
+
+            <div class="about__container bg-grid">
+                <div class="about__img">
+                    <img src="My Photo.jpg" alt="About Us">
+                </div>
+                <div>
+                    <h2 class="about__subtitle">I am Mani Chandu</h2>
+                    <p class="about__text">
+                      As a passionate and detail-oriented Software Developer, I bring 8 months 
+                      of hands-on experience in crafting responsive and user-friendly web 
+                      applications. Proficient in translating design concepts into efficient,
+                      maintainable code, my focus is on optimizing user experiences. I am actively 
+                      seeking a challenging position to further enhance my front-end development
+                      skills, contribute to innovative projects, and collaborate with a dynamic 
+                      team to deliver high-quality solutions.
+
+                    </p>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- Skills -->
+
+        <section class="skills section" id="skills">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills__container bg-grid">
+                <div>
+                    <h2 class="skills__subtitle"> Profesional Skills</h2>
+                    <p class="skills__text">
+                    </p>
+                    <div class="skills__data">
+                        <div class="skills__names">
+
+                            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAABANJREFUSEvFVV1oHFUU/s6d3bWxajUpbUijTczOZmcSqhKRVlJbiwi26oMt+KD4WyImO1uDCu1Da6QvYqMJM2ux0VRQKYLSB6EvbcUFI0ppSAi6s7uzSUNJrVUTsIJmd2fu0WmyMWkTulKK923u933nO+eee+4QrvOi6xwfSxo0NsbqpRAmg88rkvsymcTp+cmENWM9gBeIsVqBsiud7h1fLNklDdSocYoFHxAsVjHzs0SUcfPTsVAoGPCEcgjMNQz+FIRfianTsa37yzao09urQ1COZFPWlhlRl1C1yXdA/DiYggB/7NiJvQDYRyOa8a2bz28dG+v7/XKTRSsINxsN5PEBx048URLU1T23LFhxU5ZBMkSVkVTqzUIJU7X4cRksPD068v4vZRk0NXVWFqR7zLGtDbMCUjXjCwYPEBAkUEvWtp781yA2xEVan8tZ+bIMfFJYMzIg2gvIu8G0nQi3gmHPBtABmmKSR5l5RJCyz0mZ+lV7oOtvhAo8uZNALwO4g8D9gulrj7BnzeqqB5LJLtcPsnlzV+DchcnvhaT9UuBBgJ//50adBfF7t1QU+gcH+4ols7keRCKdd7LiniTCJ9OK27vMVTYx6DGAb2Sit3Mpaygcje32hbl04q1Ik3EfJF4FkAfos+lA8buQp7xOTDs4iC25EWvC584ZhHVjgCXtGk2bgz7Q0tIWvPhn6AxAw45tPRrR4h8y+MUZEfVnbXOnqhknwIiuqa6qL1UX0eOtzNjn2ObDCwxUzcg6thWZf46qFs8yOJmzrTZVM74B0DqLDzi2tVGNxg4DtMFJW9o8nX8hbMe2ogsr8MsXtHJFRX6Pf4Yzk0xfErBSFrEON2CTkOjzRVKgzWVvIMiKb1rwiB4ZS5ln/R4W5WQ3QYxn0+a7Cwz8D1U3XgKjjQlJYq5i0DART4PFXY5t+o2fW2o0fhiQJyFEDeA1QYqLILQy+GDOTvRf0eTSxkwWU9tBMAH8CHABoGYGTgiiM5d4jAYJ3khABkAIQDMTddSuqjxa6sWSBjOA/zT8NujYiXsuTfDyFdsg2WLyXhGsCAnuIVY62PWO+cOlarEhn3vVOSgRwuuMWiryIcdObCvtRTTjIWZ0M0EBs5FLJ5Il7D8/FbMzYfrXsxSkobn9duEqp4kg4QXuzWZ7zs0lFDW+coX31Hjq4M+XV7HoY1db21lRcbOb+euPQOPExEQhHK3eSoQPCLRfQoaIaTeDn8mlE8d1vX15kUXasS+sBT73yjLwSRE93sXMOwioYcIpyfTaqG3+4GMN0XiLIO4hQGVgCkQfOSmzu+wezB1LNN4SYHk+k0n8tJi4XutYG6DgbU6qd3gx/Io5WIp0Lfv/30//WrKer/0bV07AKDatmuoAAAAASUVORK5CYII="/>
+                          
+                            <span class="skills__name">React JS</span>
+                            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAArhJREFUSEu1lE9IFGEYxp/32922pTRRSdSCot3VWakko06CBv05BF0KOtRJCMRdM8zwKOGlS+aOXhKiSyAYXaJLhkgFGR0ianfc2VUpjExDy9V03dnvrXGRRNLZNp3jN9/7/N73ed4ZwhY/tMX6yBrgLg+cig2rT60azApQVXXFMbvgrI+G1eCWADzljVdIIKyHgy83HVBW5j8qBdVHNbXOStx8/08WeZRAC4DznMRZm429UlDeNmF/FQp1TK8HyxjgUfztgDhmLP687NjuCjKJ29Fw52urKTICuBV/HQHNC3FHlSsneY8Jj2Lhrj4r8Ywt8iiNtwj4pGvBbo8SmCCB03pIfbd5AF9TJXHqoq6prR7F/wSg3NKigtrBwTbDCpKRRaaItzzQDGnvTdqW7HaIESLU6mH1xaYBTCGP0nAyqnX3u5VAD5Lwx2JqYvncd/U4C/kt9kEdWQtcdwK3r6FCQJxLsnwwpk2OA30ps9j8iuPxnF2GEU86HHnSZptjl8tIzM47HxokG8e07o+rIesCvL5ANQMtYNKIsLC6SDJ/FwyDWPRHIp2R9HSBDiH4cSTUNZARwLxUVnYjJyUWLu0pKuhZHajX21wo7Ut7Y2H17XI+vkC1lHwiNtx1EwBnDKipabN/npxuImAnMx8EkA/GDghMEDBEKb7P7FyCw9ivhzrf/C1wyy3yeq+VGsb83Ojo3R9WG5MV4EBF4xkhuRXgaYDyTREGigWhVw+rbWstsdyifZVNeY6EcZ2ZnjvI9l7T7nxJF12wuZXdh22SZiKRwt+b0iZXxMysgETJSuAbZuBWGo4Aoj39HyGdmaeFILG2M2aZAmgRhAQzzchEYsjpdM39aShdsWEGZsjjX6cOgSnXvCyI7BJUTJDFgCghcLEEZkE8JZgGdE19ZmlRNkFuVGO5Rf8L/AVmDw8ojp0PbQAAAABJRU5ErkJggg=="/>
+                            <span class="skills__name">Java</span>
+                        </div>       
+                    </div>
+                    
+                
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <div class="skills__name">
+                                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAApNJREFUSEvVlVtIFFEYx//f6IoFGdRTgWS6s7uzGtFFsIJKukFFUGAUBBlCQe6sRS/6UNAFIaGbZ4KI6PJQUFEvRkFKhBChIYLhzOyeeYioHosIiqg9X82uhdfZRTBoXs//f37f/3znO0OY4Y9meH/8e0DYMIcIWDLNZEPSEUtHeyck0A2zB8CGaQJ6pCM25QPcAbB3WgDGbemKffkAFwAc8UUE2qVYfQqCEWgeCA98DRPOe7Y4FgiIxJJtTNyeM6gaz748HASoMpI1Gvh1Vg+0eo44G5wgnjgAputZA3O951rPw3HzHDFWTAEqA7Asm5ipMe123goGxJq3g7Su3BHxnrRj3dVj5j0QGvL1hYi3pm3rSfARVbfUslL9uYpgpl1hRaMt0QxlFkwG0EhrYPDhkR4s92wxGAhYbDQvKob2ZkR0RjrieFDl4XiinZjasoAQyr0h8S4QUFHRWBqaNedbTsTvAfImAxCoI+10Po4YyWsMbvI1ZbO/lwwMXP0RCPAXdcP87OsB7mNGK0BriXBytJEZOzxXdOmG+QjANgAfpSPmjy9m0rdIN0y/6iofIB2rriqarNc0fjbGTFqdtC/1hQ3zFQErfw9nSjoiVhAgYpgvGFgNwJOO0H1TON5cTapoDZPKQKOX3rCwR9K+BVAOcK90rHUFAXQj8RCgnQC+EqiJlOpNpawPo83RaGKhIqwH0U0AITDuS1fsLgwQM6+AcGicWBKoV4FDBKzyWzWmJwTLs4VZGMBIngI48HpOvFl8QjrW6YIAkcjRShT/3M/MWwCqBaBNMQsKQD8Rnmqq6IbrXvwzP3/lef9olZUH5xaVlGyEhs1g8t/6DIBuAnWTKu1JpTq+BA1iXkCQuZC1/x/wC7Vt5RmGDCVGAAAAAElFTkSuQmCC"/>
+                                 
+                            </div>
+                            <span class="skills__name">HTML 5</span>
+                           
+                            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAApRJREFUSEu9lU9IFVEUxr8zPmwRUeAiEITAN/ru6EKDaCGRUJgQ/aGFtAsjWuTMJCEaRNRCiIzI3p3cCOIuokWkoWBE5sqFpFFvZnwzLaLa9YeoIOq9OTVPofdM502CzvZ85/7u95177xA2+KMNXh+bD0gKwyKgcT3OmPDSt6VR3PuPA1UzxsA4sh4AGGOeK49FApLCGCbgzHoADAz7jjwb7UDo/QBdWhYNEtGXKBgzbwfQvazp9xx5uVxEJhi3QxEpaMpm5IsoQFIzmonxvKAhMj07LaMj0swOYr63JOIFYC0HtOA56e7aBrNdCXiyoCbu8G3rfjQgpbcS0dPyM+AHnmOdUDW9E0wjBQCj1Xfls+iIGrsF8nm7BEBwCbTsaqkSAPO+nX6YTOkXiehaIaE8i2zWciMBqVRXVZ6UD6UOeMZzrP2ruVKFOQjw+bBWqSSqMplbnyIB4UZUYfwEkCgSfgcwV9pIA1knPaEK/S5AJwH88hy5JUyqHACqMN4DqAYwz8wXiJQWgPuLG5lx1HfluCqMcF6tYLzzXFmz0uWqb5Eq9HmAmsJT5DlWc51m7GPGTHGzEvCexUVrThVGmHl9uBnPkbtjAepSxiQT2gl4k3XkrrApqXU1UFDRwgrnQJj1M7JwEFRhfAawA+AJz7EOxwKoQh8F6BSAHEB3CPyoemfV9PT01Vy4gKZdqczh4wEGjoNp6WkgjHq27IwJMK8D3LtC/BVE48ScYCDc6dbSOg14TrovHkAze8B8o/xl+6sgRk/WlTdjAWobz9VQTjmtELUxsBdAxRqw/J9ZzSLgx5wIRl6/GnobC1Asqq/v3cbKj4PMfAiENgB5Ak0FhKlK5J7Y9tC3KKeb/8v8n9zjaDfcwW+4iPQZArK8FwAAAABJRU5ErkJggg=="/>
+                            <span class="skills__name1">CSS 3</span>
+                            
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <div class="skills__name">
+                                <img  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAYVJREFUSEvtlTFLW2EUhp9zvSZDRQuidSgdNKCLRG6aQdf2F1To5iAOAQdRSDK5ObhchLYWoVDc3PQnuIrYNCQURxcndSgOQfGa+5akRskg8SZVOnjGj3POc973+zif8chhj9yfpwUkU77+haJSIXs7eJOCZ0DD3meLWj60/9giMW3GkOArcIEpr5BDM2cCtAS8rslrW4ETxgarFoyYaQ+RKf3MfvO8tUR3t3t6GVy9x9juCODCQCBL1AFmnqvg6Br3DPgNDMDf1dO2giYALJQK2S8TaT+tkHlgBujqCNBkEYSSVrsU/1QsLpyNe37KMXaB3rYVKNArXGe4btFdVGXKlH/kvic9fw1jKQqgimwD0yQwVjmP9fe8DN5J2kQ2Z8aUUF5op1zIfUym/BVgOQrgvOq6o7/2F08aAyff+uuIOSckVSxmDxvnicTn+Iu+qwNgPAqgVn8MtmUWXgp7g5i9aVoxtIFRQU5M6AMw2tElt9wRNwn3Knhogyh5T/snR5nsobl/AKADxRkdyl6NAAAAAElFTkSuQmCC"/>
+                                 
+                            </div>
+                            <span class="skills__name">Java Script</span>
+                           
+                            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAYRJREFUSEvtlbFKA0EQhv/Z+AoiglgYc+QCBrEMorFUFCtFLEW75FoFmxQKtsmZKrVFOgshpYJIEMHCInfJRYNgIYhv4O1I5AyJicl6cNhky2V2vpmd+WcIAR8K2D/6AsJRIxEi7DB4AUAYgPACkgzUBeiaiQpOJXv7W6A9AZpurDDkMUCzShky7iTT/mM1d/nTvgsQiaa2QXSm5LjTSBLxaq1yWmq/7gbo6VcAYz4AAMF2KqY+CMC+nHuPHMvsCLpXBoEDngFM+syi4VjmVN8vmo4Zm8Rc9AGQYLnu2PmL/oB4ekJ88AwznQCIK4LKUtKhFO5Tw8o3f6B1umqg6elizTK3ALAWM+Yl8x4BCU9o3/YuCA6YrhhuoW7l74GNUEQfP3es3NrALmKgFJLioFrNPqhk8KV4wUfMWFLpolaRmXAjJBUE3LJtj9aBjGwCk8nMyMvbuwaJRQJ2Acx5gQyL3Jq+wyIHqORmu2mx1LIfJSstnHZh/U3JvSX5v0tfZUwMsvkEHeH4GW/33J8AAAAASUVORK5CYII="/>
+                            <span class="skills__name1">MySql</span>
+                            
+                        </div>
+                    </div>
+
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAx1JREFUSEu1lV1oHFUUx39nputitQREKhX7YLK72dnYoA8qUlAQnxSkCv148yFqSrqzqT6USGhKoqAg1jqzaWMRHxS16oOt6LPgUy0UtU12JrOJKEL9wA+EGhp39x690YVGNtnVJfdt7pz7/51z7pz/CBu8ZIP16RiQ84p7FY6AqKBTSVR+t5Pk2gIyhQMDok4ZuAt0EpwU6LgIZ6nrSJKU4/VAawIGBp664Q9Tfw54AvQtk6ofWrww86MV87yD2+o0XgL2KMyknU0Tc3Mv/9IK1AKw280Wto2I6qTCV0ZleDEOzrc6nC2M3o0xryJsF2Qiib6bgfcbV8euAmQLB29HG6cEelAZS+LgDUDb9FqyheIwKrban8RhbzIXftk8sxqQ988B3/x+3fJjl86fXOrkEpsx/f2HthjnytugN1aj8J7WAM9fUCgvROGxZkDWK02JqCaV8IhtiaoZc+A+BduKWYQPqpUwsPGZfHFMRB6vRmGmY0DO80/bYCNmXNS5qMJRjH5k90R4AGTcGLl/cT74JJcvPaOiQ/8P4OjrYuSMoPuSqPxe825yXulN4GwSBdNdVSBGR4wjVWAzsKTC5ygVRD5eqARnbEVdVZBE4a58vrijIez6S/ROlALQZ4UVpheisNhVBah8itCXRMGB5gX+PYyNU6C9tu9dA1T0edDDqtjPeWWJIyeAarUSPtwVYMvm5d2/LaWPCwxZ3SZA4bSmasPWRtoD8v45ES45aobiePpnK5It+B+iWq9G5Ufts23LcqM26LiytEkblUrl+GW739v7ZI+TTr/jQE8ShTtbzkGm4N8hirXhm0GOKuZXQSYFeS2JgqfXmGzJeaUhRV8AfnBV98Vx+WJLwMo0Zvy0pGQKdBRIA9+66t4bx8e+/jegv7+40zhi27YdZSKJvz+xrtldLXDrbaM3ufV675XL13xx7fW1Rxx1Z+fnX7mwksSgf4vU9EWQPYLMpBz38H+w69V59g3u3+rWUicVHlLl2X8sYgz4zCD+YhTMrmeKbf9ozcM5r/SgqlrvNypSak5vO8ftGNBOaK33Gw74E1CpkSh6WtP7AAAAAElFTkSuQmCC"/>
+                            <span class="skills__name">Node.js</span>
+                            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAYpJREFUSEvt00+IjgEQx/HP5qLkQspJKaUUskfJRaQk1sXFQY4O29amSHIRBweJHJSkJCkbRaJtS9I6bPl/8K84uRB2/SkRMxr1vm+rZ/ewJ+/cnueZ+f1mvjNPjxmOnhnW1zVoJPx/ITqB5ViHn41sKmE6iL7gLZZMVTzzOg0OYU0J/MIDHMVsvMJHPMS7MDqPG7jZYvg9JryDk/gwmcELLMKRwrENz3AQF/G8pujFXGzALTyJ/MvR0FasxEihbJsgC8ar61XV1aMyOoXdWB8TDiPfL8UgcjeHsR/z8B6fq4E2g7W4jbPYhYV4iR8YxcYQmx+iEyXwFPcrdzsuxfMWXMFjrOhE1I/jeIPXUbAMC7Av2A/gGxZXYe4hG0lUieR07GoO0mhWNLYDFzoNsmAnxpAXkzEUoudwNSa4h73F9kC9P4OvVZP5Oe0xXP+7+NYryq5yrOT45wIaYnXs5C6uYfO/clsNcvOf4gz7mpTr+6aYdE+hSESTxnR+tCn6tqd1DRqxdRE1IvoNBmRNGf3s7hcAAAAASUVORK5CYII="/>
+                            <span class="skills__name1">PHP</span>       
+                        </div>
+                        
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAgRJREFUSEu1lD9oFEEUxr83cTFGAynshHDi7W32FAkRsRC0UqysYiOCWohRdo8LqW0sLE3IJP7DQgI22tjYqIWChYhREd293C6S4mobi0SD82RgVwc0t3sTbrr95n3fb+axbwh9XtTnfPQEcOvBFDNRGsvbZQ9WGrDPbxwQ4PcAFAtMpF9kVAZSClCpXBh0dgx/BOBloena920HO53ZtSJIKYDrh7MAmmYYExbSSIZbBrj15jj4l27NP4dhwkQayQ/dIIU3cP3GM4BP/D+Enifx/ElrgOcFe5Wgr10CmB2Mpp9kZ7Oarjeo+sFVAi0a5h8ABAAn1wh0qR3P37cCuGPhHRAuG+ZvGWDE0OaSWE7bAh6BcMYwrwLsALTnj0Z4kETyoh2g3ngI5rOG+XPWnnweAMbdpCWn7AB+4zrA1wzzmwxwKNcYmE5jOWcF8LzgqBL02jC/yADHc22AlddqLbatAHq4XD9cBTCqAxh4IhiDTDiVBb5NYnnEeg60sbo/nCSFxxlgiRhDIEzqb6H48MrKwrstAbTZ9YNXAB0j0C2G2gnQeRT8PX/npOi1AlCrzezmgZ8vAXpKwC4GV3kDp9NU6sHrugrfotxdGW+OOOvqJhHU8ND6leXlextF4Xq/NEAX18bCGQhsb0fyRpnwngHVenBOMIl2LJf6Aigbatb11CIbwG/em5kZozHKmgAAAABJRU5ErkJggg=="/>
+                            <span class="skills__name">MongoDB</span>
+                            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAkZJREFUSEvFlU1oE1EQx3+TTaQ1hZ70ooXSpiEJJXhSkYIHERR6VLAEi0oOIk1AEEXPgvQkukVFlFq/EMGDh+LBj4OHWpAKEdq0SWoFFcSrVG03yWjShm6+NqlSfLd9M/P/vZmdeU/Y4CUbrM//B/hD8T5UhxV2AcZqxsugk+KSeGraTDhVwTEDfyi+T1XHUe4gDAKtFWLf8x7LN//+xrd6EGdAMH5E0YuW5Po8ajwHequEVA+lZ0ee/BXAF4pFRLnvXAIZSCWvPmoa0Nl5rMXd0ra7boDIS8BVsgsyiNBd/BYZT01feWuPLStROHzG+9NaegXsbLZ9XbiiefK3Vv0tybkDqdTlD2sHsCn1BOPDoGebFS/6qUYQeWCLuZ5OmqfqAGILQOc6AJ9EiKjy2hYzl06agXqAZcBTDtAvIJkKqIK8+JXPj7aK3FbhgM2+mE6abU0B/gzXM0XHDFz9inZUZSbagUpXxf6PdNL01gEMfQbZVjLmoN+Ap7YJblw9JZGeNXfUBPiCsTGhOLErSzmOMNpYdc1DRS9lZkYu1AT4/ae71Mi+A9pX9DUqSKkFm+EsWJLb83Hm2teagMJmd/jkViPriYJsyivzgt61KWdVdX9tkmi7d2liauqmZbc73kU9gdgAwkOnowvrvCrsYr7Q0GFReVwFUBJuMQ5myU0Icn5dd1EZIBzbLhZzwOYKyCLIPdATCnszSXOyXpYNX7TuYLzXBUdBCw9OCNgCWKBvFDnnJF6ANgQ00zrO/+hfFRrEb3gGvwFKm8AZfMn6NQAAAABJRU5ErkJggg=="/>
+                            <span class="skills__name1">Python</span>       
+                        </div>
+                        
+                    </div>
+
+                </div>
+                <div>
+                    <img src="work1.jpg" alt="" class="skills__img">
+                </div>
+            </div>
+        </section>
+
+
+        <section class="work section" id="work">
+            <h2 class="section-title">
+                Work 
+            </h2>
+
+            <div class="work__container bg-grid">
+                <div>
+                    <h1>Work Experience :</h1>
+                </div>
+                <div class="headers">
+                    <h3>Yalamanchili Software Exports (Front-End Developer Trainee)</h3>
+                    <h5>March-2023/October- 2023</h5>
+                    <h4>Dcube Framework :  &nbsp; Data-Driven and Design :</h4>
+                    <ul class="lists">
+                        <li>Utilized Dcube to perform data population tasks.</li>
+                        <li>Designed and implemented various fields on web pages using Dcube.</li>
+                        <li>Integrated Data Tables into the grid for effective data representation.</li>
+                        <li>Generated reference numbers from the database.</li>
+                        <li>Developed Feedback Form and Job Application Form using Dcube.</li>
+                        
+                    </ul>    
+                    <h4>Content Management :</h4>
+                    <ul class="lists">
+                        <li>Leveraged Content Management to design and implement diverse layouts.</li>
+                        <li>Added headers, text, images, and footers using different layouts.</li>
+                        
+                    </ul>    
+                       
+                </div>
+                
+            </div>
+        </section>
+
+        <section class="contact section" id="contact">
+            <h2 class="section-title">Contact</h2>
+            
+            <div class="custom-grid">
+                <!-- Grid 1: Phone Number -->
+                <div class="custom-item">
+                    <div class="img">   
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAgtJREFUSEvFlT9oE2EYxp/3EmJM0pSEXLEdpIN/0vZTUEsHN8EqIl2cugldLCp1tCC6WFocHNVRXBTM1kEQFxVx6SCkSTXooFBB+qUZendae717y2la79q7kksavPHlfZ/f97x333OENj/UZn38FwB1qGLSBg7vZ/NGtVrRWnHpcZDNHkqvReLPAZyvi77XpX0GWFhrFuIBpFRRBHDMI0Y0qy/lLwEFqxnIdgD7iTDw2JClsb0AGAASfkIE3NJkaTosxOugS5TB6A8AvNBk6WJrAFU8AzDqI1KxLOXsr1pxsTVAlxgH45FXhD5QzBzWvn9aDivu9HtWFM/0H4xGlW9uIWIlr1WLlWbEdwCcQlIVswSMbAky3dGr83f3DJDIiUGFMOcSXEXEHtR/LJTdkESur1tRoveZ7ZeGLD8JOoBvFqVU8QDA1c0hBn+NwD63Ij9+dmqpAydUWOZbAPm/PTSly/nbAV+fT7m3N578mXpDjKF/EBgEzBBHCkxWAcDxbZMPdVm6DsBzWQPTtKPnSI7N2DsARxveP/FTfUm9DLxe35zZNa4zmVOdZvS3c9rhhiGA4+RaQ4B6EyVVMUGAExO+MeKGM/ieIcuTYQB/ep0XS7Z502aME5AMcPRKl30X3Mkb+o+WTg9keR9dsYHTBDoJcE8dVolZq0O12pcVz0UNsdumWkM7CEtpO2AD2m2dGVkfEKsAAAAASUVORK5CYII="/>
+                    </div>
+                    <h3>Phone Number</h3>
+                    <a class="custom-link" href="tel:+919346127875">+91 9346127875</a>
+                    
+                </div>
+        
+                <!-- Grid 2: Email ID -->
+                <div class="custom-item">
+                    <a class="custom-link" href="mailto:manichandu15366@gmail.com" target="_blank">
+                        <div class="img">                       
+                         <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAY9JREFUSEvtlUFLAlEUhc9VkspRSRyRoF0gOPofWkrriBYRCAVGi6B1y6Bd0CIKEoRoEdE6XPYfnBFcByHOYKhjheHcmBkrLXVMcSPN8r1zz3fveY83hAl/NGF/TBFAEKU1gI4ARMeMrQjwoa4qd6bPV0RCOK6AERvT3C4nFPSyLHUDxDhbm4xzEHZHAnXU6qpsNf89QRtgbnhFKUmgLIDIkKASg1MNVckJHT49AXMwfKpa0AOBxELLwxcA1h0gt+4mpavV/LMoxoRXuOqmvu8EAB7B2NI1+cEUCiFpAy46AyPYBSJUYPCerik3ti6+AsIVgCUnwKdPZpbfDzStWPeKsYgL7iyDk/bYlDPQSjXUQikUivreaOYEwHZnA4Mm6NDRkwHsvKj5e6vLcDxtdVeWzegwLyZWXcAlwIs/YxwS0L51jGtq8n6tplTMFb9fCrKHTpmw2e98/gRom6jEbMXARBkA4qDDHwUw5I21Zf8Ax7h+RzT5x856ro8BLDu2N1jQ+7ke07Rv+RT9MicV0QfW9KkZF+zmlwAAAABJRU5ErkJggg=="/>
+                        </div>
+                    </a>
+                    <h3>Email ID</h3>
+                    <a class="custom-link" href="mailto:manichandu15366@gmail.com">manichandu15366@gmail.com</a>
+                
+                </div>
+            
+                <!-- Grid 3: LinkedIn Profile -->
+                <div class="custom-item">
+                    <a href="https://www.linkedin.com/in/mani-chandu-korrapati-2b24b4207/" target="_blank" class="home__social-icon">
+                        <i class="fab fa-linkedin icon"></i>
+                    </a>
+                    <h3>LinkedIn </h3>
+                    <a class="custom-link" href="https://www.linkedin.com/in/mani-chandu-korrapati-2b24b4207/" target="_blank">LinkedIn Profile</a>
+                </div>
+            </div>
+          <br>
+          <br>
+          <br>
+            
+     <!-- Footer -->
+  <footer class="footer">
+    <div class="footer__container">
+      <p class="footer__title">ManiChandu K</p>
+      <div class="footer__social">
+        <a href="#" class="footer__icon"><i class="bx bxl-facebook"></i></a>
+        <a href="#" class="footer__icon"><i class="bx bxl-instagram"></i></a>
+        <a href="#" class="footer__icon"><i class="bx bxl-twitter"></i></a>
+      </div>
+      <p class="footer__copy">&#169; ManiChandu K | All Rights Reserved</p>
+    </div>
+  </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="main.js"></script>
+</body>
+</html>
